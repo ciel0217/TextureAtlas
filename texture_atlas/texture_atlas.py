@@ -12,6 +12,6 @@ atlas = Image.new('RGBA', (atlas_width, atlas_height))
 # 画像を配置
 atlas.paste(image1, (0, 0))
 atlas.paste(image2, (0, image1.height))
-
+##hello
 # アトラスを保存
 atlas.save("atlas.png")
